@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
-
 <body>
     <!-- header -->
     <header>
@@ -22,23 +21,22 @@
         </ul>
     </header>
     <!-- Home section -->
-    <section class="home" id="home">
+     <section class="home" id="home">
         <div class="home-text">
             <h1>Fuel Mind <br> Travel</h1>
             <p>Lorem, ea laborum tempore sapiente illo.<br> Maxime provident voluptatibus odit eligendi.</p>
             <a href="#" class="home-btn">Lets's Go Now!</a>
         </div>
-    </section>
-    <!-- container -->
-    <section class="container" id="services">
+     </section>
+     <!-- container -->
+      <section class="container" id="services">
         <div class="text">
             <h2>Start your vacation <br> with lots of services</h2>
         </div>
         <div class="row-items">
             <div class="container-box">
                 <div class="container-img">
-                    <img src="https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="ship" width="100" height="100">
+                    <img src="https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ship" width="100" height="100">
                 </div>
                 <h4>Ship Cruise</h4>
                 <p>150 Properties</p>
@@ -46,8 +44,7 @@
 
             <div class="container-box">
                 <div class="container-img">
-                    <img src="https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="ship" width="100" height="100">
+                    <img src="https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ship" width="100" height="100">
                 </div>
                 <h4>Ship Cruise</h4>
                 <p>150 Properties</p>
@@ -55,17 +52,16 @@
 
             <div class="container-box">
                 <div class="container-img">
-                    <img src="https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="ship" width="100" height="100">
+                    <img src="https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ship" width="100" height="100">
                 </div>
                 <h4>Ship Cruise</h4>
                 <p>150 Properties</p>
             </div>
         </div>
-    </section>
+      </section>
 
-    <!-- footer -->
-    <section id="contact">
+      <!-- footer -->
+       <section id="contact">
         <div class="footer">
             <div class="main">
                 <div class="list">
@@ -108,7 +104,7 @@
                         <a href="#"><i class="bx bxl-instagram-alt"></i></a>
                         <a href="#"><i class="bx bxl-twitter"></i></a>
                         <a href="#"><i class="bx bxl-linkedin"></i></a>
-                    </div>
+                        </div>
                 </div>
 
             </div>
@@ -119,9 +115,9 @@
         </div>
     </section>
 
-    <script>
+      <script>
         const header = document.querySelector("header");
-        window.addEventListener("scroll", function () {
+        window.addEventListener("scroll", function(){
             header.classList.toggle('sticky', window.scrollY > 0)
         });
 
@@ -136,47 +132,6 @@
             menu.classList.remove('bx-x')
             navbar.classList.remove('open')
         }
-        // start = 123;//1 2 3
-        // sum = 0; //1 + 2 => 3 + 3 => 6
-        // while (start > 0) {
-        //     remainder = start % 10 //3
-        //     sum = sum + remainder
-        //     start = start /10
-        //     // start++
-        // }
-        // console.log(sum)
-
-        // for (i = 0;; i++) {
-        //     console.log(i) //0
-        // }
-        // num = 1234;  //234
-        // sum = 0
-        // while (num > 0) {
-        //     quo = num % 10 //1
-        //     sum = sum + quo
-        //     num = num / 10  //234
-        // }
-
-        // console.log(sum)
-        // function removeDuplicates(arr1, prop) {
-        //     let uniq = [];
-        //     let skip = {}
-        //     for (ele of obj1) {
-        //         // console.log(ele)
-        //         if (!skip[ele[prop]]) {
-        //             skip[ele[prop]] = true
-        //             uniq.push(ele)
-        //         }
-        //     }
-        //     return uniq;
-        // }
-        // const obj1= [{name:"karunakar", age:30},{name:"hemanth",age:33},{name:"hemanth",age:33},{name:"chaitanya", age:30},];
-        // const output = removeDuplicates(obj1, "age")
-        // console.log(output)
-
-
-
-    </script>
+      </script>
 </body>
-
 </html>
